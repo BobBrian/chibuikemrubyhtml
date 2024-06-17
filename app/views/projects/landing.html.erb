@@ -1,0 +1,65 @@
+<h1>Project Page</h1>
+
+<h2 class="text-center mt-3">Bootstrap Responsive Layout</h2>
+<div class="text-center my-3">Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive grid system works.</div>
+  <div class="container">
+    <!--Row with two equal columns-->
+    <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              Ruby Project
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+               <%= link_to 'Ruby Project', rubyproject_path, class: 'btn btn-primary' %>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              C# Project
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <%= link_to 'C# Project', csharp_project_path, class: 'btn btn-primary' %>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--Row with two equal columns-->
+    <div class="row mt-0">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              Python Project
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <%= link_to 'Python Project', pythonproject_path, class: 'btn btn-primary' %>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              Javascript Project
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <%= link_to 'Java Project', javaproject_path, class: 'btn btn-primary' %>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    
+  </div>
+</div>
+
