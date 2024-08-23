@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'contact/contactme'
-  get 'projects/landing'
+  # get 'contact/contactme'
+  # get 'projects/landing'
   get '/rubyproject', to: 'projects#rubyproject', as: 'rubyproject'
   get '/csharp_project', to: 'projects#csharp_project', as: 'csharp_project'
   get '/pythonproject', to: 'projects#pythonproject', as: 'pythonproject'
